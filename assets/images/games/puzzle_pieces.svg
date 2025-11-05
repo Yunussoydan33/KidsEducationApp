@@ -1,0 +1,75 @@
+<svg width="400" height="300" viewBox="0 0 400 300" xmlns="http://www.w3.org/2000/svg">
+  <!-- Puzzle parçaları -->
+  
+  <!-- Parça 1 - Sol üst -->
+  <g transform="translate(50, 50)">
+    <path d="M0,0 L30,0 Q40,0 40,10 L40,20 Q40,30 30,30 L10,30 Q0,30 0,20 L0,10 Q0,0 10,0 Z" 
+          fill="#FF6B6B" stroke="#D32F2F" stroke-width="2"/>
+    <circle cx="20" cy="15" r="3" fill="#FFEB3B"/>
+  </g>
+  
+  <!-- Parça 2 - Orta üst -->
+  <g transform="translate(100, 50)">
+    <path d="M0,10 Q0,0 10,0 L30,0 Q40,0 40,10 L40,20 Q40,30 30,30 L10,30 Q0,30 0,20 Z" 
+          fill="#4ECDC4" stroke="#26A69A" stroke-width="2"/>
+    <rect x="15" y="10" width="10" height="10" fill="#FFEB3B"/>
+  </g>
+  
+  <!-- Parça 3 - Sağ üst -->
+  <g transform="translate(150, 50)">
+    <path d="M0,10 Q0,0 10,0 L30,0 L30,10 Q30,0 40,0 L40,10 L40,20 Q40,30 30,30 L10,30 Q0,30 0,20 Z" 
+          fill="#45B7B8" stroke="#00838F" stroke-width="2"/>
+    <polygon points="20,5 25,15 15,15" fill="#FFEB3B"/>
+  </g>
+  
+  <!-- Parça 4 - Sol orta -->
+  <g transform="translate(50, 100)">
+    <path d="M10,0 Q0,0 0,10 L0,20 Q0,30 10,30 L20,30 Q30,30 30,20 L30,10 Q30,0 20,0 Z" 
+          fill="#96CEB4" stroke="#66BB6A" stroke-width="2"/>
+    <circle cx="15" cy="15" r="5" fill="#FFEB3B"/>
+  </g>
+  
+  <!-- Parça 5 - Orta -->
+  <g transform="translate(100, 100)">
+    <path d="M0,10 Q0,0 10,0 L20,0 Q30,0 30,10 L30,20 Q30,30 20,30 L10,30 Q0,30 0,20 Z" 
+          fill="#FFE66D" stroke="#FBC02D" stroke-width="2"/>
+    <rect x="10" y="10" width="10" height="10" fill="#FF6B6B"/>
+  </g>
+  
+  <!-- Parça 6 - Sağ orta -->
+  <g transform="translate(150, 100)">
+    <path d="M0,10 Q0,0 10,0 L30,0 L30,10 Q30,0 40,0 L40,10 L40,20 Q40,30 30,30 L10,30 Q0,30 0,20 Z" 
+          fill="#A8E6CF" stroke="#81C784" stroke-width="2"/>
+    <polygon points="20,5 30,15 10,15" fill="#FF6B6B"/>
+  </g>
+  
+  <!-- Parça 7 - Sol alt -->
+  <g transform="translate(50, 150)">
+    <path d="M10,0 Q0,0 0,10 L0,20 Q0,30 10,30 L30,30 Q40,30 40,20 L40,10 Q40,0 30,0 Z" 
+          fill="#FFB6C1" stroke="#F48FB1" stroke-width="2"/>
+    <circle cx="20" cy="20" r="4" fill="#FFEB3B"/>
+  </g>
+  
+  <!-- Parça 8 - Orta alt -->
+  <g transform="translate(100, 150)">
+    <path d="M0,10 Q0,0 10,0 L20,0 Q30,0 30,10 L30,20 Q30,30 20,30 L10,30 Q0,30 0,20 Z" 
+          fill="#DDA0DD" stroke="#BA68C8" stroke-width="2"/>
+    <rect x="12" y="12" width="6" height="6" fill="#FFEB3B"/>
+  </g>
+  
+  <!-- Parça 9 - Sağ alt -->
+  <g transform="translate(150, 150)">
+    <path d="M0,10 Q0,0 10,0 L30,0 L30,10 Q30,0 40,0 L40,10 L40,20 Q40,30 30,30 L10,30 Q0,30 0,20 Z" 
+          fill="#98FB98" stroke="#69F0AE" stroke-width="2"/>
+    <polygon points="20,10 25,20 15,20" fill="#FF6B6B"/>
+  </g>
+  
+  <!-- Dekoratif elementler -->
+  <g fill="#FFEB3B" opacity="0.6">
+    <circle cx="200" cy="50" r="3"/>
+    <circle cx="220" cy="70" r="2"/>
+    <circle cx="180" cy="80" r="2"/>
+    <circle cx="240" cy="100" r="3"/>
+    <circle cx="160" cy="120" r="2"/>
+  </g>
+</svg>

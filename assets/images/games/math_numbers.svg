@@ -1,0 +1,39 @@
+<svg width="200" height="200" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+  <!-- Sayılar için renkli arka plan -->
+  <defs>
+    <linearGradient id="numberGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#FF6B6B;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#4ECDC4;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#45B7B8;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Ana daire -->
+  <circle cx="100" cy="100" r="80" fill="url(#numberGradient)" opacity="0.3"/>
+  
+  <!-- Sayılar -->
+  <g font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="#333">
+    <text x="50" y="60" text-anchor="middle">1</text>
+    <text x="100" y="40" text-anchor="middle">2</text>
+    <text x="150" y="60" text-anchor="middle">3</text>
+    <text x="170" y="100" text-anchor="middle">4</text>
+    <text x="150" y="140" text-anchor="middle">5</text>
+    <text x="100" y="160" text-anchor="middle">6</text>
+    <text x="50" y="140" text-anchor="middle">7</text>
+    <text x="30" y="100" text-anchor="middle">8</text>
+    <text x="50" y="100" text-anchor="middle">9</text>
+    <text x="100" y="100" text-anchor="middle">0</text>
+  </g>
+  
+  <!-- Matematik sembolleri -->
+  <g fill="#FF6B6B" font-size="20" font-weight="bold">
+    <text x="100" y="80" text-anchor="middle">+</text>
+    <text x="100" y="120" text-anchor="middle">-</text>
+    <text x="80" y="100" text-anchor="middle">×</text>
+    <text x="120" y="100" text-anchor="middle">÷</text>
+  </g>
+  
+  <!-- Dekoratif elementler -->
+  <circle cx="100" cy="100" r="5" fill="#FFEB3B"/>
+  <circle cx="100" cy="100" r="2" fill="#FF9800"/>
+</svg>

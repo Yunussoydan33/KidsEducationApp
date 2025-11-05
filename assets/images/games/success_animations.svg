@@ -1,0 +1,65 @@
+<svg width="300" height="300" viewBox="0 0 300 300" xmlns="http://www.w3.org/2000/svg">
+  <!-- Başarı animasyonları -->
+  
+  <!-- Konfeti -->
+  <g fill="#FF6B6B">
+    <rect x="50" y="50" width="4" height="15" transform="rotate(45 52 57)"/>
+    <rect x="80" y="80" width="4" height="15" transform="rotate(-30 82 87)"/>
+    <rect x="120" y="60" width="4" height="15" transform="rotate(60 122 67)"/>
+    <rect x="150" y="90" width="4" height="15" transform="rotate(-45 152 97)"/>
+    <rect x="180" y="70" width="4" height="15" transform="rotate(30 182 77)"/>
+    <rect x="220" y="100" width="4" height="15" transform="rotate(-60 222 107)"/>
+  </g>
+  
+  <g fill="#4ECDC4">
+    <rect x="60" y="70" width="4" height="15" transform="rotate(-45 62 77)"/>
+    <rect x="90" y="100" width="4" height="15" transform="rotate(30 92 107)"/>
+    <rect x="130" y="80" width="4" height="15" transform="rotate(-60 132 87)"/>
+    <rect x="160" y="110" width="4" height="15" transform="rotate(45 162 117)"/>
+    <rect x="190" y="90" width="4" height="15" transform="rotate(-30 192 97)"/>
+    <rect x="230" y="120" width="4" height="15" transform="rotate(60 232 127)"/>
+  </g>
+  
+  <g fill="#FFE66D">
+    <rect x="70" y="90" width="4" height="15" transform="rotate(60 72 97)"/>
+    <rect x="100" y="120" width="4" height="15" transform="rotate(-45 102 127)"/>
+    <rect x="140" y="100" width="4" height="15" transform="rotate(30 142 107)"/>
+    <rect x="170" y="130" width="4" height="15" transform="rotate(-60 172 137)"/>
+    <rect x="200" y="110" width="4" height="15" transform="rotate(45 202 117)"/>
+    <rect x="240" y="140" width="4" height="15" transform="rotate(-30 242 147)"/>
+  </g>
+  
+  <!-- Yıldızlar -->
+  <g fill="#FFEB3B" opacity="0.8">
+    <polygon points="100,50 105,65 120,65 108,75 113,90 100,80 87,90 92,75 80,65 95,65"/>
+    <polygon points="200,80 203,90 213,90 205,95 208,105 200,100 192,105 195,95 187,90 197,90"/>
+    <polygon points="150,150 153,160 163,160 155,165 158,175 150,170 142,175 145,165 137,160 147,160"/>
+  </g>
+  
+  <!-- Kalp -->
+  <g transform="translate(150, 150)">
+    <path d="M0,10 C0,0 10,-10 20,-10 C30,-10 40,0 40,10 C40,30 20,50 20,50 C20,50 0,30 0,10 Z" 
+          fill="#FF6B6B" opacity="0.8"/>
+  </g>
+  
+  <!-- Başarı işareti -->
+  <g transform="translate(150, 200)" stroke="#4CAF50" stroke-width="4" fill="none">
+    <path d="M-20,0 L-10,10 L20,-10" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+  
+  <!-- Parlama efektleri -->
+  <g fill="#FFEB3B" opacity="0.6">
+    <circle cx="100" cy="100" r="2"/>
+    <circle cx="200" cy="100" r="2"/>
+    <circle cx="150" cy="50" r="2"/>
+    <circle cx="150" cy="150" r="2"/>
+    <circle cx="100" cy="200" r="2"/>
+    <circle cx="200" cy="200" r="2"/>
+  </g>
+  
+  <!-- Renkli daireler -->
+  <circle cx="80" cy="120" r="8" fill="#FF6B6B" opacity="0.7"/>
+  <circle cx="220" cy="120" r="8" fill="#4ECDC4" opacity="0.7"/>
+  <circle cx="80" cy="180" r="8" fill="#FFE66D" opacity="0.7"/>
+  <circle cx="220" cy="180" r="8" fill="#A8E6CF" opacity="0.7"/>
+</svg>

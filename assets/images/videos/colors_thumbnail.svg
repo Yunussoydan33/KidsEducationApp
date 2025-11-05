@@ -1,0 +1,19 @@
+<svg width="300" height="200" viewBox="0 0 300 200" xmlns="http://www.w3.org/2000/svg">
+  <!-- Arka Plan -->
+  <rect width="300" height="200" fill="#E6F3FF" stroke="#000" stroke-width="2"/>
+  
+  <!-- Renkli Daireler -->
+  <circle cx="60" cy="80" r="25" fill="#FF0000" stroke="#000" stroke-width="2"/>
+  <circle cx="120" cy="80" r="25" fill="#00FF00" stroke="#000" stroke-width="2"/>
+  <circle cx="180" cy="80" r="25" fill="#0000FF" stroke="#000" stroke-width="2"/>
+  <circle cx="240" cy="80" r="25" fill="#FFFF00" stroke="#000" stroke-width="2"/>
+  
+  <!-- Renk İsimleri -->
+  <text x="60" y="130" font-family="Arial" font-size="14" font-weight="bold" fill="#000" text-anchor="middle">Kırmızı</text>
+  <text x="120" y="130" font-family="Arial" font-size="14" font-weight="bold" fill="#000" text-anchor="middle">Yeşil</text>
+  <text x="180" y="130" font-family="Arial" font-size="14" font-weight="bold" fill="#000" text-anchor="middle">Mavi</text>
+  <text x="240" y="130" font-family="Arial" font-size="14" font-weight="bold" fill="#000" text-anchor="middle">Sarı</text>
+  
+  <!-- Başlık -->
+  <text x="150" y="170" font-family="Arial" font-size="16" font-weight="bold" fill="#333" text-anchor="middle">Renkleri Tanıyalım</text>
+</svg>

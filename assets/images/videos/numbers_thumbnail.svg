@@ -1,0 +1,20 @@
+<svg width="300" height="200" viewBox="0 0 300 200" xmlns="http://www.w3.org/2000/svg">
+  <!-- Arka Plan -->
+  <rect width="300" height="200" fill="#FFE66D" stroke="#000" stroke-width="2"/>
+  
+  <!-- Sayılar -->
+  <text x="50" y="60" font-family="Arial" font-size="40" font-weight="bold" fill="#FF6B6B">1</text>
+  <text x="100" y="60" font-family="Arial" font-size="40" font-weight="bold" fill="#4ECDC4">2</text>
+  <text x="150" y="60" font-family="Arial" font-size="40" font-weight="bold" fill="#FFE66D">3</text>
+  <text x="200" y="60" font-family="Arial" font-size="40" font-weight="bold" fill="#A8E6CF">4</text>
+  <text x="250" y="60" font-family="Arial" font-size="40" font-weight="bold" fill="#FFB6C1">5</text>
+  
+  <text x="50" y="120" font-family="Arial" font-size="40" font-weight="bold" fill="#DDA0DD">6</text>
+  <text x="100" y="120" font-family="Arial" font-size="40" font-weight="bold" fill="#87CEEB">7</text>
+  <text x="150" y="120" font-family="Arial" font-size="40" font-weight="bold" fill="#98FB98">8</text>
+  <text x="200" y="120" font-family="Arial" font-size="40" font-weight="bold" fill="#F0E68C">9</text>
+  <text x="250" y="120" font-family="Arial" font-size="40" font-weight="bold" fill="#FFA07A">10</text>
+  
+  <!-- Başlık -->
+  <text x="150" y="170" font-family="Arial" font-size="16" font-weight="bold" fill="#333" text-anchor="middle">Sayıları Öğrenelim</text>
+</svg>
